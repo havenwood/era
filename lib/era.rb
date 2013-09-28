@@ -1,4 +1,6 @@
 require 'era/version'
+require 'era/kernel'
+require 'benchmark'
 
 module Era
   ##

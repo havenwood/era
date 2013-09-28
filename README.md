@@ -1,11 +1,9 @@
 # Era
+Ever want to benchmark some code but still use the return value? The Era gem prints the time a block takes but still return its value. Era is inspired by Clojure's `time` function but with the addition of the ability to run a number of times and still return the value from the block's last run.
 
-Print the time a block takes but still return its value. Inspired by Clojure's `time` function but with the addition of the ability to run a number of times and still return the value from the block's last run.
-
-Evaluates a block and prints the time it took. Returns the block value. Takes an optional argument for number of times to run the block.
+Era adds the the `Era.time` to `Kernel` so you can just `time do` instead of `Era.time do` to benchmark your block.
 
 ## Usage
-
 ```ruby
 time do
   sleep 2
@@ -28,13 +26,11 @@ end
 ```
 
 ## Installation
-
 ```bash
 gem install era
 ```
 
 ## Contributing
-
 1. Fork it
 2. Commit changes
 3. Pull request

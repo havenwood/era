@@ -4,12 +4,6 @@ Print the time a block takes but still return its value. Inspired by Clojure's `
 
 Evaluates a block and prints the time it took. Returns the block value. Takes an optional argument for number of times to run the block.
 
-## Installation
-
-```bash
-gem install era
-```
-
 ## Usage
 
 ```ruby
@@ -31,6 +25,12 @@ time 1000 do
 end
 #>> Elapsed time: 0.059397 ms
 #=> 284059367663871701169263886
+```
+
+## Installation
+
+```bash
+gem install era
 ```
 
 ## Contributing

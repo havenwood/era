@@ -1,7 +1,7 @@
 # Era
 Ever want to benchmark some code but still use the return value? The Era gem prints the time a block takes but still return its value. Era is inspired by Clojure's `time` function but with the addition of the ability to run a number of times and still return the value from the block's last run.
 
-Era adds the the `Era.time` to `Kernel` so you can just `time do` instead of `Era.time do` to benchmark your block.
+Era adds the the `Era.time` method to `Kernel` so you can just `time do` instead of `Era.time do` to benchmark your block.
 
 ## Usage
 ```ruby

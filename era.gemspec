@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['shannonskipper@gmail.com']
   spec.description   = %q{Print the time a block takes but still return its value.}
   spec.summary       = %q{Evaluates a block and prints the time it took. Returns the block value. Takes an optional argument for number of times to run the block.}
-  spec.homepage      = 'https://github.com/havenwood/era'
+  spec.homepage      = 'https://github.com/havenwood/era#readme'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)

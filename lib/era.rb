@@ -8,13 +8,13 @@ module Era
   # Takes an optional argument for number of times to run the block.
   def self.time this_many = 1
     value = nil
-    ms = Benchmark.realtime do
+    s = Benchmark.realtime do
       this_many.pred.times do
         yield
       end
       value = yield
     end
-    puts "Elapsed time: #{ms} ms"
+    puts "Elapsed time: #{s * 1000} ms"
     value
   end
 end

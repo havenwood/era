@@ -12,15 +12,15 @@ require 'era'
 time do
   sleep 2
   1 + 1
-end  
-#>> Elapsed time: 2.000202 ms
+end
+#>> Elapsed time: 2000.0369999999998 ms
 #=> 2
 ```
 ```ruby
 require 'era'
 
 time(1_000_000) { 1 + 1 }
-#>> Elapsed time: 0.081605 ms
+#>> Elapsed time: 75.89999999999999 ms
 #=> 2
 ```
 ```ruby
@@ -29,7 +29,7 @@ require 'era'
 time 1000 do
   (99 ** 99) / (88 ** 88)
 end
-#>> Elapsed time: 0.039134 ms
+#>> Elapsed time: 3.1510000000000002 ms
 #=> 284059367663871701169263886
 ```
 
